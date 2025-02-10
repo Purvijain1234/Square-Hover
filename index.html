@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Shape Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Shape Game</h1>
+ <div id="main">
+    <div id="shape">
+        <div id="square" class="box"><h2>1</h2></div>
+        <div id="diamond" class="box"><h2>2</h2></div>
+    </div>
+    <div id="circle" class="box"><h2>3</h2></div>
+ </div>
+ <script>
+    let x = document.getElementById("square");
+    x.addEventListener("mouseenter",function(){
+        x.innerHTML = "<h2>5</h2>";
+    })
+    x.addEventListener("mouseleave",function(){
+        x.innerHTML = "<h2>1</h2>";
+    })
+ </script>
+</body>
+</html>

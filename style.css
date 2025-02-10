@@ -1,0 +1,74 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-image: url('https://wallpaperaccess.com/full/2583511.jpg'); 
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+}
+
+.box{
+     margin-top: 10px; margin-right: 10px;
+     height: 200px;
+     width: 200px;
+     border: 1px solid black;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+#square{
+    background-color: aliceblue;
+}
+
+#square:hover{
+    background-color: firebrick;
+    height: 150px;
+    width: 150px;
+}
+
+#diamond{
+    margin-top: 50px;
+    rotate: 50deg;
+    background-color: aliceblue;
+}
+
+#diamond:hover{
+    background-color: deeppink;
+    height: 150px;
+    width: 150px;
+}
+
+#circle{
+    border-radius: 50%;
+    background-color: aliceblue;
+}
+
+#circle:hover{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+}
+
+#diamond h2{
+    rotate: -45deg;
+}
